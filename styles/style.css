@@ -5,14 +5,14 @@ body {
 
 
 .header {
-    margin: 92px 49px 92px 51px;
+    margin: 92px 56px 92px 60px;
     color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .header__links-list-item {
-    margin-left: 35px;
+    margin-left: 32px;
 }
 
 .header__links-list-item_no-bullit {
@@ -37,7 +37,6 @@ body {
 
 .header__logo {
     justify-self: center;
-    padding-top: 2px;
 }
 
 .header__logo-image {
@@ -60,10 +59,13 @@ address {
 .cover {
     display: flex;
     flex-direction: column;
-    height: 765px;
+    height: 757px;
     position: relative;
     background-size: cover;
     background-image: url("../images/cover.jpg");
+    margin-right: 10px;
+    margin-left: 10px;
+    background-position: center;
 }
 
 .cover__title {
@@ -82,13 +84,13 @@ address {
     line-height: 115%; /* 115px */
     letter-spacing: 30px;
     text-transform: uppercase;
-    margin-top: 168px;
-    margin-left: 52px;
+    margin-top: 165px;
+    margin-left: 50px;
 }
 
 .aligned-text_center {
     display: block;
-    margin-top: 21px;
+    margin-top: 20px;
     margin-right: 28px;
     color: #FFF;
     text-align: center;
@@ -104,7 +106,7 @@ address {
     display: block;
     margin-top: 20px;
     margin-bottom: 145px;
-    margin-right: 22px;
+    margin-right: 20px;
     color: #FFF;
     text-align: right;
     font-size: 100px;
@@ -123,7 +125,7 @@ address {
     font-weight: 400;
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
-    margin-top: 6px;
+    margin-top: 2px;
     text-align: right;
 }
 
@@ -132,31 +134,27 @@ address {
     word-spacing: 18px;
 }
 
-.cover__description-text-right {
-    padding-left: 4px;
-}
-
 .bet-button {
     width: 257px;
     border: 1px solid #FFF;
     padding: 12px 32px;
-    margin-right: 55px;
-    margin-left: 57px;
+    margin-right: 50px;
+    margin-left: 72px;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 61px;
+    letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-    letter-spacing: 31px;
+    letter-spacing: 30px;
 }
 
 
 .lots {
-    margin-top: 182px;
-    margin-left: 53px;
-    margin-right: 53px;
+    margin-top: 180px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .lots__heading {
@@ -180,13 +178,13 @@ address {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    margin: 29px 0;
+    margin: 27px 0 30px;
     flex-wrap: wrap;
 }
 
 .lots__card-list-item {
-    width: 435px;
-    min-height: 455px;
+    width: 430px;
+    min-height: 450px;
     position: relative;
 }
 
@@ -207,7 +205,7 @@ address {
 
 .card__title {
     margin-top: 50px;
-    margin-left: 43px;
+    margin-left: 40px;
     margin-right: 40px;
     z-index: 1;
     color: #FFF;
@@ -220,8 +218,8 @@ address {
 }
 
 .card__text {
-    margin-bottom: 53px;
-    margin-left: 45px;
+    margin-bottom: 50px;
+    margin-left: 40px;
     margin-right: 40px;
     z-index: 1;
     color: #FFF;
@@ -249,7 +247,7 @@ address {
 
 
 .about {
-    margin-top: 180px;
+    margin-top: 176px;
     margin-left: 60px;
     margin-right: 60px;
     display: flex;
@@ -257,7 +255,7 @@ address {
 }
 
 .about__column {
-    margin-left: 16px;
+    margin-left: 21px;
 }
 
 .about__logo {
@@ -278,7 +276,7 @@ address {
 }
 
 .about__title {
-    margin-left: 34px;
+    margin-left: 25px;
     margin-top: 105px;
     margin-bottom: 101px;
     color: #000;
@@ -290,8 +288,7 @@ address {
 }
 
 .about__text {
-    letter-spacing: 0.1px;
-    margin-left: 34px;
+    margin-left: 25px;
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -303,18 +300,17 @@ address {
 
 .footer {
     margin-bottom: 90px;
-    margin-top: 185px;
+    margin-top: 179px;
     display: grid;
-    margin-left: 50px;
-    margin-right: 50px;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-left: 60px;
+    margin-right: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
 }
 
 .footer__address {
     justify-self: start;
-    font-size: 18px;
-    line-height: 25px;
-    margin-left: 3px;
+    line-height: 24px;
 }
 
 .footer__menu {
@@ -322,8 +318,6 @@ address {
     height: 64px;
     text-align: center;
     justify-self: center;
-    line-height: 22px;
-    letter-spacing: 1px;
 }
 
 .footer__menu-link {
@@ -331,7 +325,7 @@ address {
 }
 
 .footer__social-list {
-    width: 246px;
+    width: 240px;
     display: flex;
     justify-content: space-between;
     justify-self: end;
