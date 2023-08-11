@@ -34,9 +34,6 @@ body {
     text-decoration: none;
 }
 
-.header__logo {
-    justify-self: start;
-}
 
 .header__logo {
     justify-self: center;
