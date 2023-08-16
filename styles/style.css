@@ -1,11 +1,10 @@
-body {
-    max-width: 1460px;
+.wrapper {
+    max-width: 1440px;
     margin: 0 auto;
 }
 
-
 .header {
-    margin: 92px 56px 92px 60px;
+    margin: 91px 37px 92px 40px;
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -14,6 +13,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+}
+
+.header__menu {
+    margin-right: 54px;
 }
 
 .header__links-list {
@@ -27,7 +30,7 @@ body {
 
 .header__links-list-item_no-bullit {
     list-style-type: none;
-    margin-left: 0;
+    margin-left: 11px;
 }
 
 .header__link_active {
@@ -47,9 +50,10 @@ body {
 .header__address {
     justify-self: end;
     line-height: 24px;
+    max-width: 245px;
 }
 
-address {
+.address {
     font-style: normal;
     line-height: 24px;
     margin-right: 7px;
@@ -59,12 +63,10 @@ address {
 .cover {
     display: flex;
     flex-direction: column;
-    height: 757px;
+    min-height: 757px;
     position: relative;
     background-size: cover;
     background-image: url("../images/cover.jpg");
-    margin-right: 10px;
-    margin-left: 10px;
     background-position: center;
 }
 
@@ -123,23 +125,25 @@ address {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 127.273% */
+    line-height: 10px;
     text-transform: uppercase;
-    margin-top: 2px;
+    margin-top: 12px;
     text-align: right;
 }
 
 .cover__description-text {
-    width: 633px;
     word-spacing: 18px;
+    margin-right: 41px;
 }
 
 .bet-button {
-    width: 257px;
+    text-decoration: none;
+    min-width: 268px;
     border: 1px solid #FFF;
-    padding: 12px 32px;
-    margin-right: 50px;
-    margin-left: 72px;
+    padding: 11px 34px;
+    margin-left: 52px;
+    margin-right: 6px;
+    word-spacing: normal;
 }
 
 .letter-spacing-extended {
@@ -152,9 +156,9 @@ address {
 
 
 .lots {
-    margin-top: 180px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-top: 181px;
+    margin-left: 49px;
+    margin-right: 50px;
 }
 
 .lots__heading {
@@ -184,7 +188,7 @@ address {
 
 .lots__card-list-item {
     width: 430px;
-    min-height: 450px;
+    min-height: 447px;
     position: relative;
 }
 
@@ -230,32 +234,36 @@ address {
 
 }
 
-.card_type_film {
+.card_type-size {
     background-size: cover;
+}
+
+.card_type_film {
+
     background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-    background-size: cover;
+
     background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-    background-size: cover;
+
     background-image: url("../images/card-lot-03.jpg");
 }
 
 
 .about {
-    margin-top: 176px;
-    margin-left: 60px;
+    margin-top: 180px;
+    margin-left: 61px;
     margin-right: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .about__column {
-    margin-left: 21px;
+    margin-left: 15px;
 }
 
 .about__logo {
@@ -294,28 +302,31 @@ address {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 25px;
+    margin-top: 23px;
 }
 
 
 .footer {
-    margin-bottom: 90px;
-    margin-top: 179px;
+    margin-bottom: 70px;
+    margin-top: 181px;
     display: grid;
-    margin-left: 60px;
-    margin-right: 60px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 51px;
+    margin-right: 42px;
+    grid-template-columns: 3fr 9fr 0fr;
     font-size: 18px;
 }
 
 .footer__address {
     justify-self: start;
     line-height: 24px;
+    max-width: 339px;
+    
 }
 
+
 .footer__menu {
-    width: 149px;
-    height: 64px;
+    width: 161px;
+    min-height: 60px;
     text-align: center;
     justify-self: center;
 }
@@ -325,10 +336,11 @@ address {
 }
 
 .footer__social-list {
-    width: 240px;
+    width: 245px;
     display: flex;
     justify-content: space-between;
     justify-self: end;
+    margin-left: 32px;
 }
 
 .footer__menu-link_active {
@@ -340,3 +352,10 @@ address {
     display: flex;
     justify-content: space-around;
 }
+
+.footer__social-link {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+ 
