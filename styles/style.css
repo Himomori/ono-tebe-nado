@@ -4,7 +4,7 @@
 }
 
 .header {
-    margin: 91px 37px 92px 40px;
+    margin: 92px 38px 92px 22px;
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -16,7 +16,7 @@
 }
 
 .header__menu {
-    margin-right: 54px;
+    margin-top: 3px;
 }
 
 .header__links-list {
@@ -30,7 +30,7 @@
 
 .header__links-list-item_no-bullit {
     list-style-type: none;
-    margin-left: 11px;
+
 }
 
 .header__link_active {
@@ -40,6 +40,7 @@
 
 .header__logo {
     justify-self: center;
+    margin-left: 17px
 }
 
 .header__logo-image {
@@ -197,6 +198,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.60);
     position: absolute;
+    top: 0;
+    left: 1;
     z-index: 0;
 }
 
@@ -205,6 +208,7 @@
     flex-wrap: wrap;
     align-content: space-between;
     height: 100%;
+    background-size: cover;
 }
 
 .card__title {
@@ -234,9 +238,6 @@
 
 }
 
-.card_type-size {
-    background-size: cover;
-}
 
 .card_type_film {
 
@@ -326,7 +327,6 @@
 
 .footer__menu {
     width: 161px;
-    min-height: 60px;
     text-align: center;
     justify-self: center;
 }
